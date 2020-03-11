@@ -1,6 +1,6 @@
 const express = require('express');
 
-const quoteCards = require('./game/quoteCards');
+const quoteCards = require('./models/quoteCards');
 
 const app = express();
 const port = 3000;
